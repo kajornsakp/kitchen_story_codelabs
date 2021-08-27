@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kitchen_story/category_card.dart';
 import 'package:kitchen_story/constants.dart';
+import 'package:kitchen_story/recipe_detail_page.dart';
 import 'package:kitchen_story/recommendation_card.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Kitchen Story'),
+      home: RecipeDetailPage(),
     );
   }
 }
@@ -76,6 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       padding: const EdgeInsets.only(bottom: 16),
                       child: Column(
                         children: [
+                          CategoryCard(),
                           CategoryCard(),
                         ],
                       ),
