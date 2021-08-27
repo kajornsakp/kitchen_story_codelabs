@@ -10,6 +10,10 @@ class RecipeDetailPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Color(0xFFF8F8F8),
         elevation: 0,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back, color: Colors.black),
+          onPressed: () => Navigator.of(context).pop(),
+        ),
         actions: [
           IconButton(
               onPressed: () {},
