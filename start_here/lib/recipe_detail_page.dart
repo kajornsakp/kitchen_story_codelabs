@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kitchen_story/constants.dart';
+import 'package:kitchen_story/rating.dart';
 
 class RecipeDetailPage extends StatelessWidget {
   const RecipeDetailPage({Key? key}) : super(key: key);
@@ -99,7 +100,7 @@ class RecipeDetailPage extends StatelessWidget {
                         SizedBox(
                           height: 8,
                         ),
-                        Text("Rating"),
+                        Rating(),
                         SizedBox(
                           height: 8,
                         ),

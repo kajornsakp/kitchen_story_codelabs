@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kitchen_story/constants.dart';
+import 'package:kitchen_story/rating.dart';
 
 class RecommendationCard extends StatelessWidget {
   const RecommendationCard({
@@ -41,18 +42,7 @@ class RecommendationCard extends StatelessWidget {
                       SizedBox(
                         height: 8,
                       ),
-                      Row(
-                        children: List.generate(
-                            5,
-                            (index) => Padding(
-                                  padding: EdgeInsets.only(right: 2),
-                                  child: Image.asset(
-                                    ICON_STAR,
-                                    width: 12,
-                                    height: 12,
-                                  ),
-                                )),
-                      ),
+                      Rating(),
                       SizedBox(
                         height: 8,
                       ),
