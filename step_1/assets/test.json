@@ -1,0 +1,30 @@
+{
+    "name": "Fried Chicken",
+    "chefName": "KFC",
+    "totalCookingTime": 50,
+    "rating": {
+        "rating": 5,
+        "difficulty": "Hard",
+        "color": "0xFFFF0000"
+    },
+    "cookingTime": {
+        "prepareTime": 15,
+        "inactiveTime": 15,
+        "cookTime": 20
+    },
+    "ingredients": [
+        "Chicken",
+        "Salt",
+        "Flour"
+    ],
+    "steps": [
+        {
+            "step": 1,
+            "instruction": "rest chicking for 5 mins"
+        },
+        {
+            "step": 2,
+            "instruction": "marinated chicken"
+        }
+    ]
+}
