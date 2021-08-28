@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:kitchen_story/constants.dart';
-import 'package:kitchen_story/models.dart';
 import 'package:kitchen_story/rating.dart';
 
 class RecommendationCard extends StatelessWidget {
   const RecommendationCard({
     Key? key,
-    required this.model
   }) : super(key: key);
-
-  final RecipeModel model;
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +32,7 @@ class RecommendationCard extends StatelessWidget {
               children: [
                 SizedBox(
                   height: 200,
-                  child: Image.network(model.imgUrl),
+                  child: Image.asset(ICON_HAMBURGER),
                 ),
                 Padding(
                   padding: EdgeInsets.only(left: 24, right: 24, bottom: 24),
@@ -46,12 +42,12 @@ class RecommendationCard extends StatelessWidget {
                       SizedBox(
                         height: 8,
                       ),
-                      Rating(model: model.rating),
+                      Rating(),
                       SizedBox(
                         height: 8,
                       ),
                       Text(
-                        model.name,
+                        "NAME",
                         style: Theme.of(context).textTheme.headline6,
                       ),
                       SizedBox(
@@ -67,7 +63,7 @@ class RecommendationCard extends StatelessWidget {
                           SizedBox(
                             width: 8,
                           ),
-                          Text("${model.totalCookingTime} mins"),
+                          Text("TIME"),
                           SizedBox(
                             width: 12,
                           ),
@@ -79,7 +75,7 @@ class RecommendationCard extends StatelessWidget {
                           SizedBox(
                             width: 8,
                           ),
-                          Text(model.chefName),
+                          Text("NAME"),
                         ],
                       ),
                       SizedBox(
