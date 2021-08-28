@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f14478e4-0689-4489-9206-cd0de8f3d425" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../step_2/lib/home_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../step_2/lib/routes.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../step_2/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../step_2/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../step_2/lib/recipe_detail_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../step_2/lib/recipe_detail_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../step_2/lib/recommendation_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../step_2/lib/recommendation_card.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../step_2/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../step_2/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/recipe_detail_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/recipe_detail_page.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
